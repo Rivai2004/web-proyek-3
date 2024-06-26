@@ -1,0 +1,8 @@
+{
+    "name": "mycompany/myproject",
+    "description": "My PHP project description",
+    "type": "project",
+    "require": {
+        "phpoffice/phpword": "^0.18"
+    }
+}

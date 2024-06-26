@@ -1,0 +1,27 @@
+body {
+  background-color: black !important;
+}
+#bodyblur {
+  opacity: 0.3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  transition: all 1s ease;
+  z-index: 0;
+}
+#wallpaper {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.3);
+  transition: all 2s ease;
+}
+h2 {
+  position: relative;
+  margin-top: 35vh !important;
+  font-size: 100px !important;
+  color: white;
+  margin-bottom: 50vh !important;
+}
