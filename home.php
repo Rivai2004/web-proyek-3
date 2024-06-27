@@ -20,7 +20,7 @@ include_once 'config.php';
 
 <body>
     <section class="header">
-        <a href="home.php" class="logo">Sleman</a>
+        <a href="home.php" class="logo"><img src="images/sleman.png"></a>
         <nav class="navbar">
             <a href="home.php">home</a>
             <a href="gabungan.php">profile</a>
