@@ -63,25 +63,25 @@ $conn->close();
 
 <html>
 <head><title>Form Surat</title></head>
+<link rel="stylesheet" href="suratkuasa.css">
 <body>
 <form action="" method="POST">
     <h2>SURAT KUASA DALAM PELAYANAN ADMINISTRASI KEPENDUDUKAN</h2>
-    <h3>Pada hari ini........ tanggal........ bulan........ tahun.......  
-bertempat di............, Saya: 
+    <h3>Saya: 
 </h3>
     <table>
         <tr>
-            <td>Nama</td><td> : </td><td><input type="text" name="nama" required /></td>
+            <td>Nama Lengkap</td><td> : </td><td><input type="text" name="nama" required /></td>
         </tr>
         <tr>
-            <td>Tempat tanggal lahir/usia</td><td> : </td><td><input type="text" name="ttl" required /></td>
+            <td>Tempat tanggal Lahir/Usia</td><td> : </td><td><input type="text" name="ttl" required /></td>
         </tr>
         <tr>
-            <td>PEKERJAAN</td><td> : </td><td><input type="text" name="pekerjaan" required /></td>
+            <td>Pekerjaan</td><td> : </td><td><input type="text" name="pekerjaan" required /></td>
         </tr>
         <table>
             <tr>
-            <td>ALAMAT</td><td> : </td><td><input type="text" name="alamat" required /></td>
+            <td>Alamat</td><td> : </td><td><input type="text" name="alamat" required /></td>
             </tr>
         </table>
         <tr>
@@ -90,11 +90,11 @@ bertempat di............, Saya:
         </tr>
         <tr>
             <p>
-Memberikan kuasa kepada :
+Memberikan Kuasa Kepada :
 </p>
 
 <tr>
-<td>NAMA LENGKAP</td><td> : </td><td><input type="text" name="nama1" required /></td>
+<td>Nama Lengkap</td><td> : </td><td><input type="text" name="nama1" required /></td>
 </tr>
 <tr>
 <td>NIK</td><td> : </td><td><input type="text" name="nik" required /></td>

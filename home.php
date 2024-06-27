@@ -20,11 +20,11 @@ include_once 'config.php';
 
 <body>
     <section class="header">
-        <a href="home.php" class="logo"><img src="images/sleman.pn"></a>
+        <a href="home.php" class="logo"><img src="images/sleman.png" alt="Logo Sleman" style="width: 30%; height: 20%;"></a>
         <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="gabungan.php">profile</a>
-            <a href="list_surat_user.php">List Surat</a>
+            <a href="home.php">HOME</a>
+            <a href="gabungan.php">PROFIL</a>
+            <a href="list_surat_user.php">LIST SURAT</a>
         </nav>
         <div id="menu-btn" class="fas fa-bars"></div>
     </section>
@@ -47,7 +47,7 @@ include_once 'config.php';
                     $judul = $r2['judul'];
                 ?>
 
-                    <div class="swiper-slide slide" style="background: url(img/<?php echo $image ?>) no-repeat">
+                    <div class="swiper-slide slide" style="background: url(img/<?php echo $image ?>) no-repeat;background-size: cover;background-position: center;">
                         <div class="content">
                             <h3><?php echo $judul ?></h3>
                         </div>
@@ -65,7 +65,7 @@ include_once 'config.php';
     </section>
 
     <section class="services">
-        <h1 class="heading-title">our services</h1>
+        <h1 class="heading-title">Layanan</h1>
         <div class="box-container">
             <a href="gabungan.php">
                 <div class="box">
@@ -127,12 +127,12 @@ include_once 'config.php';
     </section>
 
     <section class="heading" style="background-color: rgb(0, 191, 255);">
-        <h1>SOTK</h1>
+        <h1>Struktur Organisasi dan Tata Kerja</h1>
 
     </section>
 
     <section class="pengumuman">
-        <h1 class="heading-title">Perangkat Desa</h1>
+        
 
         <div class="box-container">
 
@@ -162,11 +162,11 @@ include_once 'config.php';
             ?>
 
         </div>
-        <div class="load-more"><a href="SOTK.php" class="btn">Selengkapnya</a></div>
+        
     </section>
 
     <section class="pengumuman">
-        <h1 class="heading-title">Berita terkini</h1>
+        <h1 class="heading-title">Berita Terkini</h1>
 
         <div class="box-container">
 
@@ -207,36 +207,20 @@ include_once 'config.php';
 
     <section class="footer">
         <div class="box-container">
-            <div class="box">
-                <h3>quick links</h3>
-                <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
-                <a href="gabungan.php"> <i class="fas fa-angle-right"></i> profile</a>
-                <a href="informasi_publik.php"> <i class="fas fa-angle-right"></i> informasi publik</a>
-                <a href="aduan.php"> <i class="fas fa-angle-right"></i> layanan publik</a>
-            </div>
+           
+           
 
             <div class="box">
-                <h3>extra links</h3>
-                <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
-                <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
-            </div>
-
-            <div class="box">
-                <h3>kontak info</h3>
-                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890</a>
+                <h3>Kontak Info</h3>
+               
                 <a href="#"> <i class="fas fa-phone"></i> +111-222-3333</a>
                 <a href="#"> <i class="fas fa-envelope"></i> sleman@gmail.com</a>
-                <a href="#"> <i class="fas fa-map"></i> indramayu, indonesia - 45271</a>
+                
             </div>
 
             <div class="box">
-                <h3>follow us</h3>
-                <a href="#"> <i class="fab fa-facebook"></i> facebook </a>
-                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+                
+                <a href="#"> <i class="fas fa-map"></i> indramayu, indonesia - 45271</a>
             </div>
         </div>
         <div class="credit"> created by <span>kelompok 9</span> | all rights reserved! </div>

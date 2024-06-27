@@ -247,6 +247,48 @@
     a:hover {
       opacity: 0.7;
     }
+
+    .footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.footer .box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer .box {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer .box h3 {
+  margin-bottom: 20px;
+}
+
+.footer .box a {
+  display: block;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer .box a:hover {
+  text-decoration: underline;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer .credit span {
+  font-weight: bold;
+}
+
   </style>
   <div class="card">
     <img src="sotk-1.png" alt="John" style="width: 125px; height: 125px" />
@@ -256,41 +298,25 @@
     </p>
   </div>
   <section class="footer">
-    <div class="box-container">
-      <div class="box">
-        <h3>quick links</h3>
-        <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
-        <a href="gabungan.php"> <i class="fas fa-angle-right"></i> profile</a>
-        <a href="informasi_publik.php"> <i class="fas fa-angle-right"></i> informasi publik</a>
-        <a href="aduan.php"> <i class="fas fa-angle-right"></i> layanan publik</a>
-      </div>
+        <div class="box-container">
+           
+           
 
-      <div class="box">
-        <h3>extra links</h3>
-        <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
-        <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
-        <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
-        <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
-      </div>
+            <div class="box">
+                <h3>Kontak Info</h3>
+               
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#"> <i class="fas fa-envelope"></i> sleman@gmail.com</a>
+                
+            </div>
 
-      <div class="box">
-        <h3>kontak info</h3>
-        <a href="#"> <i class="fas fa-phone"></i> +123-456-7890</a>
-        <a href="#"> <i class="fas fa-phone"></i> +111-222-3333</a>
-        <a href="#"> <i class="fas fa-envelope"></i> Sleman@gmail.com</a>
-        <a href="#"> <i class="fas fa-map"></i> indramayu, indonesia - 45271</a>
-      </div>
-
-      <div class="box">
-        <h3>follow us</h3>
-        <a href="#"> <i class="fab fa-facebook"></i> facebook </a>
-        <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-        <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-        <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
-      </div>
-    </div>
-    <div class="credit"> created by <span>RID</span> | all rights reserved! </div>
-  </section>
+            <div class="box">
+                
+                <a href="#"> <i class="fas fa-map"></i> indramayu, indonesia - 45271</a>
+            </div>
+        </div>
+        <div class="credit"> created by <span>kelompok 9</span> | all rights reserved! </div>
+    </section>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="home.js"></script>

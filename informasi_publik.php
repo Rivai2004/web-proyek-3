@@ -85,36 +85,34 @@ section{
     text-transform: uppercase;
     color: var(--black);
 }
-.header{
-    position: sticky;
-    top: 0; left:0; right: 0;
-    z-index: 1000;
-    background-color: var(--white);
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-shadow: var(--box-shadow);
-    align-items: center;
-    justify-content: space-between;
+.header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
 }
-.header .logo{
-    font-size: 2.5rem;
-    color: var(--black);
+
+.header .logo img {
+  width: 100%;
+  height: auto;
 }
-.header .navbar a{
-    font-size: 2rem;
-    margin-left: 2rem;
-    color: var(--black);
+
+.header .navbar {
+  margin-left: auto;
 }
-.header .navbar a:hover{
-    color: var(--main-color);
+
+.header .navbar a {
+  color: white;
+  padding: 10px 15px;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
 }
-#menu-btn{
-    font-size: 2.5rem;
-    cursor: pointer;
-    color: var(--black);
-    display: none;
+
+.header .navbar a:hover {
+  background-color: #555;
 }
+
 
 .heading{
     text-align: center;
@@ -124,7 +122,7 @@ section{
     justify-content: center;
     background-size: cover !important;
     background-position: center !important;
-    min-height: 30rem;
+    
     font-size: 2vw;
 }
 
@@ -515,16 +513,15 @@ section{
 }
     </style>
     <body>
-        <section class="header">
-            <a href="home.html" class="logo">Sleman</a>
-            <nav class="navbar">
-            <a href="home.php">home</a>
-            <a href="gabungan.php">profile</a>
-            <a href="informasi_publik.php">informasi</a>
-            <a href="https://api.whatsapp.com/send?phone=6287725057948&text=Assalamualaikum%2C%20admin%20saya%20mau%20bikin%20surat%20%0ANama%20%3A%20%0AAlamat%20%3A%20%0AKeterangan%20surat%20%3A%20">layanan</a>
+    <section class="header">
+        <a href="home.php" class="logo"><img src="images/sleman.png" alt="Logo Sleman" style="width: 30%; height: 20%;"></a>
+        <nav class="navbar">
+            <a href="home.php">HOME</a>
+            <a href="gabungan.php">PROFIL</a>
+            <a href="list_surat_user.php">LIST SURAT</a>
         </nav>
-            <div id="menu-btn" class="fas fa-bars"></div>
-        </section>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
 
         <section class="heading" style="background-color: rgb(0, 191, 255);">
             <h1>Informasi Publik</h1>
@@ -564,41 +561,25 @@ while ($r2 = mysqli_fetch_array($q)) {
         </section>
 
         <section class="footer">
-            <div class="box-container">
-                <div class="box">
-                    <h3>quick links</h3>
-                    <a href="home.html"> <i class="fas fa-angle-right"></i> home</a>
-                    <a href="profile.html"> <i class="fas fa-angle-right"></i> profile</a>
-                    <a href="informasi.html"> <i class="fas fa-angle-right"></i> informasi publik</a>
-                    <a href="layanan.html"> <i class="fas fa-angle-right"></i> layanan publik</a>   
-                </div>
+        <div class="box-container">
+           
+           
 
-                <div class="box">
-                    <h3>extra links</h3>
-                    <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
-                    <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
-                    <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
-                    <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
-                </div>
-
-                <div class="box">
-                    <h3>kontak info</h3>
-                    <a href="#"> <i class="fas fa-phone"></i> +123-456-7890</a>
-                    <a href="#"> <i class="fas fa-phone"></i> +111-222-3333</a>
-                    <a href="#"> <i class="fas fa-envelope"></i> Sleman@gmail.com</a>
-                    <a href="#"> <i class="fas fa-map"></i> indramayu, indonesia - 45271</a>
-                </div>
-
-                <div class="box">
-                    <h3>follow us</h3>
-                    <a href="#"> <i class="fab fa-facebook"></i> facebook </a>
-                    <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-                    <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                    <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
-                </div>
+            <div class="box">
+                <h3>Kontak Info</h3>
+               
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#"> <i class="fas fa-envelope"></i> sleman@gmail.com</a>
+                
             </div>
-            <div class="credit"> created by <span>kelompok 8</span> | all rights reserved! </div> 
-        </section>
+
+            <div class="box">
+                
+                <a href="#"> <i class="fas fa-map"></i> indramayu, indonesia - 45271</a>
+            </div>
+        </div>
+        <div class="credit"> created by <span>kelompok 9</span> | all rights reserved! </div>
+    </section>>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
         <script src="script.js"></script>

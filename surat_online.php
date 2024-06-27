@@ -115,6 +115,7 @@ $conn->close();
 
 <html>
 <head><title>Form Surat</title></head>
+<link rel="stylesheet" href="suratkawin.css">
 <body>
 <form action="" method="POST">
     <h2>SURAT PERNYATAAN TANGGUNG JAWAB MUTLAK PERKAWINAN / PERCERAIAN BELUM TERCATAT</h2>

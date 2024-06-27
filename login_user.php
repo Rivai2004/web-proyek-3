@@ -10,7 +10,6 @@ if (isset($_SESSION['email'])) {
 if (isset($_POST['login'])) {
    $email = $_POST['email'];
    $password = $_POST['password'];
-
    $sql = "SELECT email from login_user WHERE email = '$email' and password = '$password'";
    $hasil = $conn->query($sql);
    if ($hasil->num_rows == 1) {
